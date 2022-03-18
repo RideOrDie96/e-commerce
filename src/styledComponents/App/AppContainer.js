@@ -1,13 +1,6 @@
-*,
-*::before,
-*::after {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+import styled from 'styled-components';
+
+export const AppContainer = styled.div`
   font-family: 'Montserrat', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
     'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
-}
-
-body {
-  overflow-x: hidden;
-}
+`;
